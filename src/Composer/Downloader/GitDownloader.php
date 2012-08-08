@@ -153,10 +153,11 @@ class GitDownloader extends VcsDownloader
 
         // public github, autoswitch protocols
         if (preg_match('{^(?:https?|git)(://github.com/.*)}', $url, $match)) {
-            $protocols = array('git', 'https', 'http');
+            $protocols = array('http', 'git', 'https');
             $messages = array();
             foreach ($protocols as $protocol) {
                 $url = $protocol . $match[1];
+                echo "[GIT] Cloning from: ".$url;
                 if (0 === $this->process->execute(call_user_func($commandCallable, $url), $handler)) {
                     return;
                 }
