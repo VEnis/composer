@@ -1,0 +1,268 @@
+[
+    {
+        "name": "justinrainbow/json-schema",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "time": "2012-01-03 00:33:17",
+        "source": {
+            "type": "git",
+            "url": "git://github.com/justinrainbow/json-schema.git",
+            "reference": "v1.1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/justinrainbow/json-schema/zipball/v1.1.0",
+            "reference": "v1.1.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "license": [
+            "NewBSD"
+        ],
+        "authors": [
+            {
+                "name": "Igor Wiedler",
+                "email": "igor@wiedler.ch",
+                "homepage": "http://wiedler.ch/igor/",
+                "role": null
+            },
+            {
+                "name": "Bruno Prieto Reis",
+                "email": "bruno.p.reis@gmail.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Justin Rainbow",
+                "email": "justin.rainbow@gmail.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Robert Schönthal",
+                "email": "seroscho@googlemail.com",
+                "homepage": "http://digitalkaoz.net",
+                "role": null
+            }
+        ],
+        "description": "A library to validate a json schema.",
+        "homepage": "https://github.com/justinrainbow/json-schema",
+        "keywords": [
+            "json",
+            "schema"
+        ],
+        "autoload": {
+            "psr-0": {
+                "JsonSchema": "src/"
+            }
+        }
+    },
+    {
+        "name": "seld/jsonlint",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "time": "2012-03-12 07:52:32",
+        "source": {
+            "type": "git",
+            "url": "http://github.com/Seldaek/jsonlint",
+            "reference": "1.0.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/Seldaek/jsonlint/zipball/1.0.0",
+            "reference": "1.0.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "bin": [
+            "bin/jsonlint"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "JSON Linter",
+        "keywords": [
+            "json",
+            "parser",
+            "linter",
+            "validator"
+        ],
+        "autoload": {
+            "psr-0": {
+                "Seld\\JsonLint": "src/"
+            }
+        }
+    },
+    {
+        "name": "symfony/process",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Process",
+        "time": "2012-07-18 17:33:32",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Process",
+            "reference": "ae0635cf7768aeab3c7935389e651498706b87ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Process/zipball/v2.1.0-RC1",
+            "reference": "v2.1.0-RC1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Process": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v2.1.0-BETA3",
+        "version_normalized": "2.1.0.0-beta3",
+        "target-dir": "Symfony/Component/Finder",
+        "time": "2012-07-15 10:13:51",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Finder",
+            "reference": "v2.1.0-BETA3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Finder/zipball/v2.1.0-BETA3",
+            "reference": "v2.1.0-BETA3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Finder": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/console",
+        "version": "v2.1.0-BETA3",
+        "version_normalized": "2.1.0.0-beta3",
+        "target-dir": "Symfony/Component/Console",
+        "time": "2012-07-15 10:13:51",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Console",
+            "reference": "v2.1.0-BETA3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Console/zipball/v2.1.0-BETA3",
+            "reference": "v2.1.0-BETA3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Console": ""
+            }
+        }
+    }
+]
